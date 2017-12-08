@@ -1,0 +1,126 @@
+/* Main Content */
+
+body {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .panel > div {
+    width: 1600px;
+    margin: 0 auto;
+  }
+  
+  .primary-header {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+  }
+  
+  .primary-header nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .primary-header nav .left {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .primary-header nav .right {
+   flex-wrap: wrap;
+  }
+
+  
+  .primary-content-inside {
+    display: flex;
+    background-color: red;
+  }
+  
+  aside {
+    flex: 2;
+    background-color:rgb(255, 9, 194);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  main {
+  flex: 5;
+  background-color: green;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+  }
+
+  .content-left {
+      background-color: white;
+      width: 50%
+  }
+  
+  .img {
+      text-align: center;
+      width: 350px;
+      height: 350px;
+  }
+  .aside-text {
+    width: 100%;
+  }
+
+  .content-box {
+    width: 50%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100px;
+  }
+
+  h4 {
+    border-top: solid 2px grey;
+  }
+
+
+  /* Utilities */
+.github-icon {
+  color: white;
+  font-size: 36pt;
+}
+
+.searchBar {
+  margin: 5px 0 5px 0px;
+  border-radius: 3pt;
+  background-color: rgb(87, 87, 87);
+  color: white;
+  border: solid black;
+  width: 40%;
+}
+
+::-webkit-input-placeholder{
+  color: white;
+}
+
+.nav-bar {
+  color: rgb(146, 146, 146);
+  font-size: 18pt;
+  margin-top: 12px;
+  padding: 0 10px;
+}
+
+.img2 {
+  height: 30px;
+  width: 30px;
+}
+
+.plus {
+  color: white;
+  font-size: 12pt
+}
+
+.caret1 {
+  color: rgb(255, 255, 255)
+}
+
+.caret2 {
+  color: white;
+  font-size: 32pt;
+}
+
+
+
